@@ -1,0 +1,241 @@
+# Copyright (C) 2024 Paykit
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Paykit payment gateway 1.0.0\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/create-a-ticket/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-02T09:41:04+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"language-team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Domain: paykit-payment-gateway\n"
+
+#. Plugin Name of the plugin
+msgid "Paykit payment gateway"
+msgstr "Paykit payment gateway"
+
+#. Description of the plugin
+msgid "Increase revenue and enhance customer experience with Paykit - Vietnam's leading online payment gateway, now available on WordPress!"
+msgstr "Tăng doanh thu và nâng cao trải nghiệm khách hàng với Paykit - cổng thanh toán online hàng đầu Việt Nam, nay đã có mặt trên WordPress!"
+
+#. Author of the plugin
+msgid "Paykit"
+msgstr "Paykit"
+
+#. Author URI of the plugin
+msgid "https://paykit.vn/vn/home"
+msgstr "https://paykit.vn/vn/home"
+
+#: common/clients/paykit-pgw-client.php:31
+msgid "Paykit payment gateway configuration not completed"
+msgstr "Chưa hoàn thành cấu hình Paykit payment gateway"
+
+#: common/services/checkout_page_service.php:34
+msgid "Note: Payment amount will be %1$s for %2$s (Exchange rate: %3$s = %4$s)"
+msgstr "Ghi chú: Tổng thanh toán là %1$s cho %2$s (Tỉ giá: %3$s = %4$s)"
+
+#: src/bank-transfer/bank-transfer.php:53
+msgid "Paykit payment gateway - Bank transfer VietQR"
+msgstr "Paykit payment gateway - Thanh toán chuyển khoản VietQR"
+
+#: src/bank-transfer/bank-transfer.php:54
+msgid "Your customers can pay by bank transfer via Paykit payment gateway."
+msgstr "Khách hàng của bạn có thể thanh toán bằng cách chuyển khoản ngân hàng thông qua Paykit payment gateway."
+
+#: src/bank-transfer/bank-transfer.php:77
+#: src/domestic-card/domestic-card.php:75
+#: src/international-card/international-card.php:75
+msgid "Enable/Disable"
+msgstr "Bật/Tắt"
+
+#: src/bank-transfer/bank-transfer.php:78
+msgid "Enable Paykit payment gateway - Bank transfer VietQR"
+msgstr "Bật Paykit payment gateway - Thanh toán chuyển khoản VietQR"
+
+#: src/bank-transfer/bank-transfer.php:84
+#: src/domestic-card/domestic-card.php:82
+#: src/international-card/international-card.php:82
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: src/bank-transfer/bank-transfer.php:86
+msgid "Paykit payment gateway - Bank transfer VietQR title that the customer will see on your checkout."
+msgstr "Tiêu đề mà người mua sẽ nhìn thấy khi chọn thanh toán bằng Thanh toán chuyển khoản VietQR"
+
+#: src/bank-transfer/bank-transfer.php:87
+#: scripts/blocks-frontend/bank-transfer-blocks-support.js:9
+msgid "Pay by bank transfer"
+msgstr "Thanh toán chuyển khoản VietQR"
+
+#: src/bank-transfer/bank-transfer.php:91
+#: src/domestic-card/domestic-card.php:89
+#: src/international-card/international-card.php:89
+msgid "Description"
+msgstr "Mô tả"
+
+#: src/bank-transfer/bank-transfer.php:93
+msgid "Paykit payment gateway - Bank transfer VietQR description that the customer will see on your website."
+msgstr "Đoạn mô tả mà người mua sẽ nhìn thấy khi chọn thanh toán bằng Thanh toán chuyển khoản VietQR"
+
+#: src/bank-transfer/bank-transfer.php:94
+msgid "Transfer from bank app and e-wallet"
+msgstr "Chuyển khoản từ app ngân hàng và ví điện tử"
+
+#: src/bank-transfer/bank-transfer.php:98
+#: src/domestic-card/domestic-card.php:96
+#: src/international-card/international-card.php:96
+msgid "Icon"
+msgstr "Icon"
+
+#: src/base/base-wc-paykit-pgw.php:89
+msgid "Invalid amount to refund"
+msgstr "Hoàn tiền với số tiền không hợp lệ"
+
+#: src/base/base-wc-paykit-pgw.php:93
+msgid "Invalid order to refund"
+msgstr "Hoàn tiền với đơn hàng không hợp lệ"
+
+#: src/base/base-wc-paykit-pgw.php:99
+msgid "Error. Please try again!"
+msgstr "Có lỗi xảy ra. Vui lòng thử lại sau!"
+
+#: src/base/base-wc-paykit-pgw.php:117
+msgid "Error when refunding: "
+msgstr "Có lỗi xảy ra khi hoàn tiền: "
+
+#: src/base/base-wc-paykit-pgw.php:125
+msgid "Gateway refund is being processed (ID: %1$s, Amount: %2$s VND)"
+msgstr "Cổng thanh toán đang xử lý yêu cầu hoàn tiền (ID: %1$s, Amount: %2$s VND)"
+
+#: src/base/base-wc-paykit-pgw.php:134
+msgid "Gateway refund approved (ID: %1$s, Amount: %2$s VND)"
+msgstr "Cổng thanh toán hoàn tiền thành công (ID: %1$s, Amount: %2$s VND)"
+
+#: src/base/base-wc-paykit-pgw.php:142
+msgid "Refund failed. Please try again!"
+msgstr "Hoàn tiền thất bại. Vui lòng thử lại sau!"
+
+#: src/domestic-card/domestic-card.php:51
+msgid "Paykit payment gateway - NAPAS card"
+msgstr "Paykit payment gateway - Thanh toán bằng thẻ nội địa"
+
+#: src/domestic-card/domestic-card.php:52
+msgid "Your customers can pay by NAPAS card via Paykit payment gateway."
+msgstr "Khách hàng của bạn có thể thanh toán bằng thẻ nội địa thông qua Paykit payment gateway."
+
+#: src/domestic-card/domestic-card.php:76
+msgid "Enable Paykit payment gateway - NAPAS card"
+msgstr "Bật phương thức Paykit payment gateway - Thanh toán bằng thẻ nội địa"
+
+#: src/domestic-card/domestic-card.php:84
+msgid "Paykit payment gateway - NAPAS card title that the customer will see on your checkout."
+msgstr "Tiêu đề mà người mua sẽ nhìn thấy khi chọn thanh toán bằng thẻ nội địa."
+
+#: src/domestic-card/domestic-card.php:85
+msgid "Pay by NAPAS card"
+msgstr "Thanh toán bằng thẻ nội địa"
+
+#: src/domestic-card/domestic-card.php:91
+msgid "Paykit payment gateway - NAPAS card description that the customer will see on your website."
+msgstr "Đoạn mô tả mà người mua sẽ nhìn thấy khi chọn thanh toán bằng thẻ nội địa."
+
+#: src/international-card/international-card.php:51
+msgid "Paykit payment gateway - Visa/Mastercard/JCB card"
+msgstr "Paykit payment gateway - Thanh toán bằng thẻ quốc tế (Visa/Mastercard/JCB)"
+
+#: src/international-card/international-card.php:52
+msgid "Your customers can pay by Visa/Mastercard/JCB card via Paykit payment gateway."
+msgstr "Khách hàng của bạn có thể thanh toán bằng thẻ quốc tế (Visa/Mastercard/JCB) thông qua Paykit payment gateway."
+
+#: src/international-card/international-card.php:76
+msgid "Enable Paykit payment gateway - Visa/Mastercard/JCB card"
+msgstr "Bật phương thức Paykit payment gateway - Thanh toán bằng thẻ quốc tế (Visa/Mastercard/JCB)"
+
+#: src/international-card/international-card.php:84
+msgid "Paykit payment gateway - Visa/Mastercard/JCB card title that the customer will see on your checkout."
+msgstr "Tiêu đề mà người mua sẽ nhìn thấy khi chọn thanh toán bằng thẻ quốc tế (Visa/Mastercard/JCB)."
+
+#: src/international-card/international-card.php:85
+msgid "Pay by Visa/Mastercard/JCB card"
+msgstr "Thanh toán bằng thẻ quốc tế (Visa/Mastercard/JCB)"
+
+#: src/international-card/international-card.php:91
+msgid "Paykit payment gateway - Visa/Mastercard/JCB card description that the customer will see on your website."
+msgstr "Đoạn mô tả mà người mua sẽ nhìn thấy khi chọn thanh toán bằng thẻ quốc tế (Visa/Mastercard/JCB)."
+
+#: src/setting-form.php:10
+msgid "Paykit payment gateway"
+msgstr "Paykit payment gateway"
+
+#: src/setting-form.php:22
+msgid "Paykit payment gateway Settings"
+msgstr "Cấu hình Paykit payment gateway"
+
+#: src/setting-form.php:24
+msgid "You need to set these settings before using Paykit payment gateway."
+msgstr "Bạn cần cấu hình các thông số này trước khi sử dụng Paykit payment gateway."
+
+#: src/setting-form.php:28
+msgid "API URL"
+msgstr "API URL"
+
+#: src/setting-form.php:31
+msgid "Paykit payment gateway Endpoint to access payment gateway service"
+msgstr "Đường dẫn để truy cập đến các dịch vụ của cổng thanh toán Paykit"
+
+#: src/setting-form.php:34
+msgid "API key"
+msgstr "API key"
+
+#: src/setting-form.php:37
+msgid "API key provided by Paykit"
+msgstr "API key cung cấp bởi Paykit"
+
+#: src/setting-form.php:40
+msgid "Secret key"
+msgstr "Secret key"
+
+#: src/setting-form.php:43
+msgid "Secret key of the client"
+msgstr "Secret key của client"
+
+#: src/setting-form.php:47
+msgid "Webhook Secret key"
+msgstr "Webhook Secret key"
+
+#: src/setting-form.php:48
+msgid "Secret key is used to validate Webhook requests from Paykit"
+msgstr "Secret key dùng để xác thực các thông báo thông qua Webhook từ Paykit"
+
+#: src/setting-form.php:51
+msgid "Webhook secret key provided by Paykit"
+msgstr "Webhook secret key cung cấp bởi Paykit"
+
+#: src/setting-form.php:55
+msgid "Currency conversion"
+msgstr "Cấu hình tỉ giá"
+
+#: src/setting-form.php:56
+msgid "Currently Paykit only supports VND, need to configure how to convert other currencies"
+msgstr "Hiện tại Paykit chỉ hỗ trợ VND, cần cấu hình tỉ giá khi chấp nhận thanh toán đơn vị tiền tệ khác"
+
+#: src/thankyou-page.php:51
+msgid "Your order has been completed"
+msgstr "Đơn hàng của bạn đã hoàn thành"
+
+#: src/thankyou-page.php:53
+msgid "Your order has been cancelled"
+msgstr "Đơn hàng của bạn đã bị hủy"
+
+#: src/thankyou-page.php:55
+msgid "Your order has been paid successfully"
+msgstr "Đơn hàng của bạn đã được thanh toán thành công"
+
+#: src/thankyou-page.php:57
+msgid "Order failed for some reason"
+msgstr "Đơn hàng của bạn đã thất bại vì một số lý do"

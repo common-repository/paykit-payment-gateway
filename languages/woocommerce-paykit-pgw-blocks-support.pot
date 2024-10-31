@@ -1,0 +1,239 @@
+# Copyright (C) 2024 Paykit
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Paykit payment gateway 1.0.0\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/create-a-ticket/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-09T08:23:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"language-team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Domain: paykit-payment-gateway\n"
+
+#. Plugin Name of the plugin
+msgid "Paykit payment gateway"
+msgstr ""
+
+#. Description of the plugin
+msgid "Increase revenue and enhance customer experience with Paykit - Vietnam's leading online payment gateway, now available on WordPress!"
+msgstr ""
+
+#. Author of the plugin
+msgid "Paykit"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://paykit.vn/vn/home"
+msgstr ""
+
+#: common/clients/paykit-pgw-client.php:31
+msgid "Paykit payment gateway configuration not completed"
+msgstr ""
+
+#: common/services/checkout_page_service.php:34
+msgid "Note: Payment amount will be %1$s for %2$s (Exchange rate: %3$s = %4$s)"
+msgstr ""
+
+#: src/bank-transfer/bank-transfer.php:53
+msgid "Paykit payment gateway - Bank transfer VietQR"
+msgstr ""
+
+#: src/bank-transfer/bank-transfer.php:54
+msgid "Your customers can pay by bank transfer via Paykit payment gateway."
+msgstr ""
+
+#: src/bank-transfer/bank-transfer.php:77
+#: src/domestic-card/domestic-card.php:75
+#: src/international-card/international-card.php:75
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/bank-transfer/bank-transfer.php:78
+msgid "Enable Paykit payment gateway - Bank transfer VietQR"
+msgstr ""
+
+#: src/bank-transfer/bank-transfer.php:84
+#: src/domestic-card/domestic-card.php:82
+#: src/international-card/international-card.php:82
+msgid "Title"
+msgstr ""
+
+#: src/bank-transfer/bank-transfer.php:86
+msgid "Paykit payment gateway - Bank transfer VietQR title that the customer will see on your checkout."
+msgstr ""
+
+#: src/bank-transfer/bank-transfer.php:87
+#: scripts/blocks-frontend/bank-transfer-blocks-support.js:9
+msgid "Pay by bank transfer"
+msgstr ""
+
+#: src/bank-transfer/bank-transfer.php:91
+#: src/domestic-card/domestic-card.php:89
+#: src/international-card/international-card.php:89
+msgid "Description"
+msgstr ""
+
+#: src/bank-transfer/bank-transfer.php:93
+msgid "Paykit payment gateway - Bank transfer VietQR description that the customer will see on your website."
+msgstr ""
+
+#: src/bank-transfer/bank-transfer.php:98
+#: src/domestic-card/domestic-card.php:96
+#: src/international-card/international-card.php:96
+msgid "Icon"
+msgstr ""
+
+#: src/base/base-wc-paykit-pgw.php:89
+msgid "Invalid amount to refund"
+msgstr ""
+
+#: src/base/base-wc-paykit-pgw.php:93
+msgid "Invalid order to refund"
+msgstr ""
+
+#: src/base/base-wc-paykit-pgw.php:99
+msgid "Error. Please try again!"
+msgstr ""
+
+#: src/base/base-wc-paykit-pgw.php:117
+msgid "Error when refunding: "
+msgstr ""
+
+#: src/base/base-wc-paykit-pgw.php:125
+msgid "Gateway refund is being processed (ID: %1$s, Amount: %2$s VND)"
+msgstr ""
+
+#: src/base/base-wc-paykit-pgw.php:134
+msgid "Gateway refund approved (ID: %1$s, Amount: %2$s VND)"
+msgstr ""
+
+#: src/base/base-wc-paykit-pgw.php:142
+msgid "Refund failed. Please try again!"
+msgstr ""
+
+#: src/domestic-card/domestic-card.php:51
+msgid "Paykit payment gateway - NAPAS card"
+msgstr ""
+
+#: src/domestic-card/domestic-card.php:52
+msgid "Your customers can pay by NAPAS card via Paykit payment gateway."
+msgstr ""
+
+#: src/domestic-card/domestic-card.php:76
+msgid "Enable Paykit payment gateway - NAPAS card"
+msgstr ""
+
+#: src/domestic-card/domestic-card.php:84
+msgid "Paykit payment gateway - NAPAS card title that the customer will see on your checkout."
+msgstr ""
+
+#: src/domestic-card/domestic-card.php:85
+#: scripts/blocks-frontend/domestic-card-blocks-support.js:9
+msgid "Pay by NAPAS card"
+msgstr ""
+
+#: src/domestic-card/domestic-card.php:91
+msgid "Paykit payment gateway - NAPAS card description that the customer will see on your website."
+msgstr ""
+
+#: src/international-card/international-card.php:51
+msgid "Paykit payment gateway - Visa/Mastercard/JCB card"
+msgstr ""
+
+#: src/international-card/international-card.php:52
+msgid "Your customers can pay by Visa/Mastercard/JCB card via Paykit payment gateway."
+msgstr ""
+
+#: src/international-card/international-card.php:76
+msgid "Enable Paykit payment gateway - Visa/Mastercard/JCB card"
+msgstr ""
+
+#: src/international-card/international-card.php:84
+msgid "Paykit payment gateway - Visa/Mastercard/JCB card title that the customer will see on your checkout."
+msgstr ""
+
+#: src/international-card/international-card.php:85
+#: scripts/blocks-frontend/international-card-blocks-support.js:9
+msgid "Pay by Visa/Mastercard/JCB card"
+msgstr ""
+
+#: src/international-card/international-card.php:91
+msgid "Paykit payment gateway - Visa/Mastercard/JCB card description that the customer will see on your website."
+msgstr ""
+
+#: src/setting-form.php:10
+msgid "Paykit payment gateway"
+msgstr ""
+
+#: src/setting-form.php:22
+msgid "Paykit payment gateway Settings"
+msgstr ""
+
+#: src/setting-form.php:24
+msgid "You need to set these settings before using Paykit payment gateway."
+msgstr ""
+
+#: src/setting-form.php:28
+msgid "API URL"
+msgstr ""
+
+#: src/setting-form.php:31
+msgid "Paykit payment gateway Endpoint to access payment gateway service"
+msgstr ""
+
+#: src/setting-form.php:34
+msgid "API key"
+msgstr ""
+
+#: src/setting-form.php:37
+msgid "API key provided by Paykit"
+msgstr ""
+
+#: src/setting-form.php:40
+msgid "Secret key"
+msgstr ""
+
+#: src/setting-form.php:43
+msgid "Secret key of the client"
+msgstr ""
+
+#: src/setting-form.php:47
+msgid "Webhook Secret key"
+msgstr ""
+
+#: src/setting-form.php:48
+msgid "Secret key is used to validate Webhook requests from Paykit"
+msgstr ""
+
+#: src/setting-form.php:51
+msgid "Webhook secret key provided by Paykit"
+msgstr ""
+
+#: src/setting-form.php:55
+msgid "Currency conversion"
+msgstr ""
+
+#: src/setting-form.php:56
+msgid "Currently Paykit only supports VND, need to configure how to convert other currencies"
+msgstr ""
+
+#: src/thankyou-page.php:51
+msgid "Your order has been completed"
+msgstr ""
+
+#: src/thankyou-page.php:53
+msgid "Your order has been cancelled"
+msgstr ""
+
+#: src/thankyou-page.php:55
+msgid "Your order has been paid successfully"
+msgstr ""
+
+#: src/thankyou-page.php:57
+msgid "Order failed for some reason"
+msgstr ""
